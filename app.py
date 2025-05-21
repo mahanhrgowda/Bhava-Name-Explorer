@@ -5,7 +5,7 @@ from engine import process_name, generate_poem
 from tokenizer import tokenize_name
 from data import PHONEME_BHAVA_MAP
 from phoneme_guess import guess_bhava_for_unknown
-from ml_model.predict_bhava import predict_bhava
+from predict_bhava import predict_bhava
 
 st.set_page_config(page_title="Bhāva Name Explorer", layout="wide")
 st.title("🔤 Bhāva Name Engine")
