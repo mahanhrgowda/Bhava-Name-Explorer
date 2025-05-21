@@ -3,7 +3,7 @@
 from tokenizer import tokenize_name
 from data import PHONEME_BHAVA_MAP, CHAKRA_WEIGHTS, CHANDAS_SYLLABLE_COUNT, CHANDAS_TAGS
 from phoneme_guess import guess_bhava_for_unknown
-from ml_model.predict_bhava import predict_bhava
+from predict_bhava import predict_bhava
 
 def process_name(name):
     phonemes = tokenize_name(name)
